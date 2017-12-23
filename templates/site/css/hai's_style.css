@@ -1,0 +1,611 @@
+/*Hai's CSS*/
+body{
+	font-family: Quicksand;
+	font-size: 13pt;
+	color:#000;
+}
+
+a{
+	color:inherit;
+}
+
+a.active{
+	color:#FFCA05;
+}
+
+ul{
+	list-style: none;
+	-webkit-padding-start: 0px;
+	padding-left: 10px;
+}
+
+.font_30{
+	font-size: 30px;
+}
+
+.font_22{
+	font-size: 22px;
+}
+.font_20{
+	font-size: 20px;
+}
+
+.font_18{
+	font-size: 18px;
+}
+
+.font_30pt{
+	font-size: 30pt;
+}
+
+.font_20pt{
+	font-size: 20pt;
+}
+
+.upperCase{
+	text-transform: uppercase;
+}
+
+.text_white{
+	color: #fff;
+}
+
+.font_15{
+	font-size: 15px;
+}
+.clear{
+	clear: both;
+}
+
+.contact{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.contact_top{
+	margin:0 auto;
+}
+
+.contact_top_form{
+	border: 1px solid #eee;
+	margin-top :-50px;
+	padding: 10px;
+	border-top:4px solid #FFCA05;
+	background: #fff;
+}
+
+.form_contact{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.text_title{
+	font-weight: bold;
+	font-family: Quicksand;
+	font-size: 20pt;
+	color:#4B4B4B;
+}
+.marginTop{
+	margin-top: 10px;
+}
+
+.text_form_contact{
+	font-family: Quicksand;
+	font-size:14px;
+	color:#4B4B4B;
+	font-weight: bold;
+}
+
+.border_left{
+	border-left: 2px solid #4B4B4B;
+}
+
+.padding_left{
+	padding-left: 10px;
+}
+
+.font_bold {
+	font-weight: bold;
+}
+
+.formContactLabel{
+	width: 30%;float: left;
+}
+
+.formContactInput{
+	width: 70%;float: right;
+	border:0;
+	outline: 0;
+}
+
+#btn_send_contact{
+	background-color: #F7C514;
+	border:0px;outline: none;
+	color:#4B4B4B;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.contact_bot{
+	margin-top: 30px;
+	width: 100%;
+	height: 300px;
+}
+
+.div_bottom_form_contact{
+	background-color: #eee;
+	padding-bottom: 10px;
+}
+
+.impressive_menu{
+	background-color: #fff;
+	padding: 10px;
+}
+
+.course{
+	display: inline-block;
+	width: 24%;
+	float: left;
+	margin-left: 1%;
+}
+
+.course:first-child{
+	margin-left: 0;
+}
+
+.courseImage{
+	width: 100%;
+	padding:0 20%;
+}
+
+.courseImage > img {
+	width: 100%;
+}
+
+.courseDescription{
+	font-size: 14px;
+}
+
+.coursePrice{
+	color: red;
+}
+
+.food_menu{
+	margin:0 auto;
+	background: url(../images/menu/foodMenu/bg.png) no-repeat 100% 100%;
+}
+
+.foodMenuTitle{
+	text-transform: capitalize;
+	color: #ffcc00;
+	font-size: 30px;
+	padding: 30px 0;
+}
+
+.foodMenuList{
+	width: 80%;
+}
+
+.cateMenu{
+	list-style: none;
+	color: #FFCA05;
+	font-style: italic;
+	line-height: 50px;
+	text-align: center;
+	border-left: 1px dotted #fff;
+	border-right: 1px dotted #fff;
+	cursor: pointer;
+}
+
+.cateMenu:hover{
+	color:#fff;
+}
+
+.cateMenu:first-child{
+	border:0;
+	background: url(../images/menu/foodMenu/border_cateMenu_top.png) no-repeat;
+	background-size:  100% 100%;
+}
+
+.cateMenu:last-child{
+	border:0;
+	background: url(../images/menu/foodMenu/border_cateMenu_bot.png) no-repeat;
+	background-size:  100% 100%;
+}
+
+.courseDetail{
+	list-style: none;
+	color: #fff;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+.courseDetail:hover .courseDetailName{
+	color:#FFCA05;
+}
+
+.courseDetailName{
+	font-weight: bold;
+	color: #fff;
+}
+
+.courseDetailPrice{
+	float: right;padding-right: 10px;
+}
+
+.course_des{
+	font-size: 15px;
+}
+
+.foodMenuLists{
+	width: 20%;float: left;
+}
+
+.foodMenuDetails{
+	width: 80%;float: right;padding-top:30px;
+	height: 400px;overflow-y: auto;
+}
+
+.foodMenuDetails::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	background-color: #fff;
+}
+
+.foodMenuDetails::-webkit-scrollbar{
+	width: 6px;
+	background-color: #FFCA05;
+	border-radius: 20px;
+}
+
+.foodMenuDetails::-webkit-scrollbar-thumb{
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #FFCA05;
+}
+
+#img_beer{
+	float: right;
+    width: 100px;
+    margin-right: -5%;
+    margin-bottom: -5%;
+}
+
+#img_beer > img{
+	width: 100%;
+}
+
+.drinks_menu{
+	padding-top: 30px;
+}
+
+
+.event_detail{
+	width: 80%;
+	margin:0 auto;
+	background-color: #fff;
+}
+
+.eventTopDes{
+	width: 80%;
+	margin:0 auto;
+}
+
+.imgEventTop{
+	width: 100%;
+	position: relative;
+}
+
+.imgEventTop > img{
+	width: 100%;
+}
+
+.btn_booking{
+	line-height: 52px;
+    width: 15%;
+    text-align: center;
+    padding: 0 1%;
+    position: absolute;
+    bottom: -5%;
+    left: 45%;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #FFCA05;
+}
+
+.envent_detail_introduct{
+	padding-top:30px;
+}
+
+.eventVideo,.eventVideo >video ,.event_detail_list_text{
+	width: 100%;
+}
+.event_detail_list_text{
+	margin: 10px 0;
+}
+
+.eventDetailListText{
+	width: 40%;float: left;
+}
+
+.eventDetailListText > ul{
+	width: 90%;border:1px solid #ddd;
+}
+
+.eventDetailListText > ul > li {
+	line-height: 30px;
+}
+
+.eventDetailContentText{
+	background: url(../images/eventDetail/bg_text.png);
+	background-size: 100%;
+	padding:20px;
+	width: 60%;float: right;
+	border:1px solid #ddd;
+}
+
+.quotes{
+	font-size: 50px;
+	font-weight: 900;
+	color:#FFCA05;
+}
+
+.bg_white{
+	background-color: #fff;
+}
+
+.ed_left_text{
+	cursor: pointer;
+}
+
+.event_D, .event_D>img {
+	width: 100%;
+}
+
+.event_icon{
+	width: 100%;
+	text-align: center;
+	padding:2%;
+}
+
+.event_icon>img{
+	width: 70px;height: 70px;
+	border-radius: 50%;
+
+}
+
+.bot_ed{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.div_event_bottom{
+	border:1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+.li_event_top{
+	width: 32%;float: left;margin-right: 1%;
+}
+
+.eventName{
+	color:#ffca05;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.color_yellow{
+	color: #ffcc00;
+}
+
+.text_shadow{
+	text-shadow: 1px -5px 0 #ffcc00;
+}
+
+.event{
+	background-color:  #fff;
+}
+
+.margin_bottom{
+	margin-bottom: 500px;
+}
+
+.event_impressive{
+	margin-top:-400px;
+}
+
+.eImage,.eImage_pe{
+	width: 100%;
+	position: relative;
+}
+
+.eImage>img,.eImage_pe>img{
+	width: 100%;
+	background-color: #000;
+}
+
+.eTitle{
+	color: #fff;
+    font-weight: bold;
+    position: absolute;
+    z-index: 200;
+    top: 15%;
+    left: 10%;
+}
+
+.eDate{
+	position: absolute;z-index: 200;
+	top: 25%;
+	left: 20%;
+	color: #fff;
+	font-weight: bold;
+}
+
+.btn_eBook{
+	position: absolute;
+    z-index: 200;
+    bottom: 45%;
+    left: 30%;
+    color: #000;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    width: 150px;
+    height: 52px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffca05;
+    border-radius: 5px;
+}
+
+.eDetail{
+	position: absolute;z-index: 200;
+	bottom: 35%;
+	left: 40%;
+	color: #fff;
+	font-weight: bold;
+}
+
+.fixed_calendar{
+	position:absolute;bottom: 0;right:0;z-index: 100;
+	width: 150px;height: 150px;opacity: 0.95;
+    color: #ffca05;
+	background-color: #333;
+	padding: 10% 0;
+
+}
+
+.event_dd{
+	font-size: 71pt;
+    font-weight: bold;
+    width: 100%;
+    height: 70%;
+}
+
+.event_mm{
+	font-size: 26px;
+    font-weight: bold;
+    width: 100%;
+    height: 30%;
+}
+
+.upcomingEvent > div{
+	margin-bottom: 10px;
+}
+
+.upcomingEvent img{
+	max-height: 300px !important;
+}
+
+.passEvent{
+	margin: 30px;
+}
+
+.passEvent img{
+	max-height: 250px !important;
+}
+
+
+/*responsive mobile*/
+@media only screen and (max-width:768px){
+	.hidden_mobile{
+		display: none;
+	}
+
+	#btn_send_contact{
+		width: 150px;height: 52px;
+	}
+
+	.contact_top{
+		width: 80%;
+	}
+
+	.formContactLabel{
+		width: 40%;
+	}
+
+	.formContactInput{
+		width: 60%;
+	}
+
+	.contact_top_form{
+		margin-top :-30px;
+	}
+
+	.text_form_contact{
+		font-size:13px;
+	}
+
+	.foodMenuLists{
+		width: 25%;float: left;
+	}
+
+	.foodMenuDetails{
+		width: 75%;float: right;
+	}
+
+	.foodMenuContent{
+		padding: 10px;
+	}
+	
+	.event_detail {
+	    width: 100%;
+	    padding: 0 5%;
+	}
+
+	.imgEventTop > img {
+	    margin-top: -80px;
+	}
+
+	.btn_booking{
+		width: 25%;
+	}
+
+	.food_menu{
+		width: 100%;
+	}
+
+	.margin_bottom_mobile{
+		margin-bottom: 10px !important;
+	}
+
+	.advertisers > .row > .col-md-4{
+		border:1px solid #ddd;
+		margin-bottom: 10px;
+	}
+}
+
+/*responsive desktop*/
+@media only screen and (min-width:768px){
+	.hidden_desktop{
+		display: none;
+	}
+
+	#btn_send_contact{
+		width: 211px;height: 52px;
+	}
+
+	.contact_top {
+		width: 80%;
+	}
+
+	.container_menu_food{
+		width: 70%;
+		margin:0 auto;
+	}
+
+	.drinks_menu{
+		width: 60%;margin:0 auto;
+	}
+
+	.event_detail{
+		width: 60%;
+		margin-top: -50px !important;
+	}
+
+	.food_menu{
+		width: 90%;
+	}
+}
+/*END Hai's CSS
