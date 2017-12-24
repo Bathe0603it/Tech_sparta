@@ -64,6 +64,13 @@ $link_save_close = $post_url.'?id='.$_GET['id'].'&ac=save_close';
               <div class="avatar" id="avatar"><?php echo $avatar;?></div>
            </div>
            <div class="field">
+              <label>Sắp diễn ra hoặc đã diễn ra</label>
+              <select name="future" class="form_control">
+                 <option value="1" <?php if( $item['future'] == 1 ) echo 'selected=""'; ?> >Sắp diễn ra</option>
+                 <option value="0" <?php if( $item['future'] == 0 ) echo 'selected=""'; ?>>Đã diễn ra</option>
+              </select>
+           </div>
+           <div class="field">
               <label>Trạng thái</label>
               <select name="state" class="form_control">
                  <option value="1" <?php if( $item['state'] == 1 ) echo 'selected=""'; ?> >Kích hoạt</option>

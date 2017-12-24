@@ -82,6 +82,22 @@
         }
     }
 
+    if(!function_exists('show_link_event')){
+        function show_link_event($input = null){
+            return base_url($input['slug'].'-E.html');
+        }
+    }
+
+    if(!function_exists('show_link_image_event')){
+        function show_link_image_event($input = null,$thump = null){
+            $link_url   = empty($input['avatar'])?'templates/site/images/icon/icon_null.jpg':'media/images/event/'.$input['id'].'/'.$input['avatar'];
+            if (!empty($thump)) {
+                $link_url   = empty($input['avatar'])?'templates/site/images/icon/icon_null.png':'media/images/event/'.$input['id'].'/_thumbs/'.$input['avatar'];
+            }
+            return base_url($link_url);
+        }
+    }
+
     if(!function_exists('show_link_product')){
         function show_link_product($input = null){
             return base_url($input['slug'].'-P'.$input['id'].'.html');
@@ -185,6 +201,15 @@
                 return '';
             }
             return round(($input['giakhuyenmai']-$input['giaban'])/100,0,PHP_ROUND_HALF_UP);
+        }
+    }
+
+    if (!function_exists('dateViewToStringToTime')) {
+        function dateViewToStringToTime($date = null){
+            $date   = explode('/', $date);
+            $date   = $date[1].'/'.$date[0].'/'.$date[2];
+            $date   = strtotime($date);
+            return $date;
         }
     }
 

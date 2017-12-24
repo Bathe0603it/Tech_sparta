@@ -64,13 +64,20 @@ class Event_model extends CI_Model
         return $query->result_array();
     }
 
-    public
-
-    function Db_event_feature()
+    public function Db_event_feature()
     {
         $this->db->select('id,parent,name,slug,avatar');
         $this->db->where('state', 1);
         $this->db->where('feature', 1);
+        $query = $this->db->get('event');
+        return $query->result_array();
+    }
+
+    public function Db_event_future($haveEvent = 1)
+    {
+        $this->db->select('id,parent,name,slug,avatar');
+        $this->db->where('state', 1);
+        $this->db->where('future', $haveEvent);
         $query = $this->db->get('event');
         return $query->result_array();
     }

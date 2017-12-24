@@ -87,6 +87,7 @@ class Event extends CI_Controller
                 $update['description'] = $post['description'];
                 $update['state'] = $post['state'];
                 $update['feature'] = $post['feature'];
+                $update['future'] = $post['future'];
                 $update['follow'] = $post['follow'];
                 $this->event_model->db->where('id', $get['id'])->update('event', $update);
                 $success = '<div class="success"><p>Lưu thành công!</p></div>';
@@ -141,6 +142,7 @@ class Event extends CI_Controller
                 $update['description'] = $post['description'];
                 $update['state'] = $post['state'];
                 $update['feature'] = $post['feature'];
+                $update['future'] = $post['future'];
                 $update['follow'] = $post['follow'];
                 $this->event_model->db->where('id', $get['id'])->update('event', $update);
                 $success = '<div class="success"><p>Lưu thành công!</p></div>';

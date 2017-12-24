@@ -30,6 +30,8 @@ class Event extends CI_Controller{
 
         $data['list'] = $this->event_model->Db_list($listChildenMenuId, $this->limit, $offset = 0);
         $data['getFeature'] = $this->event_model->Db_event_feature();
+        $data['getFutureTomorow'] = $this->event_model->Db_event_future(1);
+        $data['getFutureYesterday'] = $this->event_model->Db_event_future(0);
         
         $data['category'] = $category;
         $data['title'] = $category['title'];
